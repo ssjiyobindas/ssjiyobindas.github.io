@@ -320,7 +320,8 @@ ul.inline {
 }
 
 ul.inline li {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     white-space: nowrap; /* Prevent text from wrapping to the next line */
     max-width: 300px; /* Set a maximum width for list items, adjust as needed */
     overflow: hidden;
