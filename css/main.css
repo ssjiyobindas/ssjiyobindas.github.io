@@ -330,7 +330,6 @@ ul.inline li::before {
     height: 4px;
     border-radius: 50%;
     background: #FF0077;
-    background: black; /* Change the background color to black */
     margin-right: 5px; /* Adjust the spacing between the disc and the text */
     vertical-align: middle;
 }
