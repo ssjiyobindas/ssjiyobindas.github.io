@@ -315,7 +315,7 @@ dd {
 	margin: 0 0 0 2rem;
 }
 ul.inline {
-    list-style: disc;
+    list-style: none;
     padding: 0;
 }
 
