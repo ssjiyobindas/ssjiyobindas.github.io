@@ -323,7 +323,15 @@ ul.inline li {
     display: inline-block;
     margin-right: 10px;
 }
-
+ul.inline li::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #FF0077;
+    margin-right: 5px; /* Adjust the spacing between the disc and the text */
+}
 /**
  * tables - (_document-setup.scss)  
  * -------------------------------------------------------------------
