@@ -276,6 +276,7 @@ ol {
 }
 ul {
 	list-style: disc;
+	padding: 0;
 }
 li {
 	display: list-item;
@@ -313,6 +314,15 @@ dt {
 }
 dd {
 	margin: 0 0 0 2rem;
+}
+ul.inline {
+    list-style: none;
+    padding: 0;
+}
+
+ul.inline li {
+    display: inline-block;
+    margin-right: 10px;
 }
 
 /**
