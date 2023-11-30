@@ -331,8 +331,7 @@ ul.inline li::before {
     border-radius: 50%;
     background: #FF0077;
     margin-right: 5px; /* Adjust the spacing between the disc and the text */
-    vertical-align: middle;
-}
+    }
 /**
  * tables - (_document-setup.scss)  
  * -------------------------------------------------------------------
