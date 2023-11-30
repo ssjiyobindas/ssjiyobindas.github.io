@@ -321,13 +321,18 @@ ul.inline {
 
 ul.inline li {
     display: inline-block;
-    margin-right: 10px;
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    max-width: 150px; /* Set a maximum width for list items, adjust as needed */
+    overflow: hidden;
+    text-overflow: ellipsis; /* Show ellipsis (...) for overflowing text */
+    margin-right: 10px; /* Adjust the margin as needed */
+}
 }
 ul.inline li::before {
     content: "";
     display: inline-block;
-    width: 4px;
-    height: 4px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
     background: #FF0077;
     margin-right: 5px; /* Adjust the spacing between the disc and the text */
