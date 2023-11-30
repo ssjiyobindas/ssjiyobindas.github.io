@@ -322,7 +322,7 @@ ul.inline {
 ul.inline li {
     display: inline-block;
     white-space: nowrap; /* Prevent text from wrapping to the next line */
-    max-width: 240px; /* Set a maximum width for list items, adjust as needed */
+    max-width: 250px; /* Set a maximum width for list items, adjust as needed */
     overflow: hidden;
     text-overflow: ellipsis; /* Show ellipsis (...) for overflowing text */
     margin-right: 10px; /* Adjust the margin as needed */
@@ -335,8 +335,6 @@ ul.inline li::before {
     border-radius: 50%;
     background: #FF0077;
     margin-right: 5px;
-    position: absolute;
-    vertical-align: middle;
     }
 /**
  * tables - (_document-setup.scss)  
