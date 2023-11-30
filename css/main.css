@@ -322,11 +322,10 @@ ul.inline {
 ul.inline li {
     display: inline-block;
     white-space: nowrap; /* Prevent text from wrapping to the next line */
-    max-width: 150px; /* Set a maximum width for list items, adjust as needed */
+    max-width: 170px; /* Set a maximum width for list items, adjust as needed */
     overflow: hidden;
     text-overflow: ellipsis; /* Show ellipsis (...) for overflowing text */
     margin-right: 10px; /* Adjust the margin as needed */
-}
 }
 ul.inline li::before {
     content: "";
@@ -335,7 +334,7 @@ ul.inline li::before {
     height: 6px;
     border-radius: 50%;
     background: #FF0077;
-    margin-right: 5px; /* Adjust the spacing between the disc and the text */
+    margin-right: 5px; 
     }
 /**
  * tables - (_document-setup.scss)  
