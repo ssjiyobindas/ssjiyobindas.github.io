@@ -305,7 +305,7 @@ ul.disc li::before {
 	position: absolute;
 	left: -17px;
 	top: 11px;
-	vertical-align: middle;
+	
 }
 dt {
 	margin: 0;
